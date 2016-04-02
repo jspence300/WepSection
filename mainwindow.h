@@ -17,7 +17,7 @@ public:
 
     QString wepType[4] = {"Mace", "Staff", "2Hand Sword", "Dagger/Offhand"};
     QString wepName[4] = {"DoomSeeker", "Staff of Royalty", "Sword of Capablity", "Dagger of Thieves"};
-    QString wepDmg[4] = {"180 strength", "180 intellect", "250 strength", "200 agility"};
+    QString wepDmg[4] = {"180 Strength", "200 Intellect", "250 Strength", "180 Intellect"};
     QString wepClass[4] = {"Paladin", "Druid", "Warrior", "Warlock"};
     QString wepDescrip[4] = {"\"Beholder of Doom\"", "\"Only the noble\"", "\"Only the strong\"", "\"Honor among Thieves\""};
 
@@ -26,6 +26,7 @@ public:
     void updatewDmg();
     void updatewClass();
     void updateDescrip();
+    void showPix();
 
     int subNum;
 
@@ -34,6 +35,9 @@ public:
     QString wDmg;
     QString wClass;
     QString wDescrip;
+
+
+
 
 
 private slots:
